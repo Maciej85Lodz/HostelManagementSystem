@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HMS.Library\HMS.Json.csproj" />
+    <ProjectReference Include="..\HMS.Web.App.Ui.Color\HMS.Web.App.Ui.Color.csproj" />
+    <ProjectReference Include="..\HMS.Web.Ui.Ajax\HMS.Web.App.Ui.Ajax.csproj" />
+    <ProjectReference Include="..\HMS.Web.Ui.Conflict\HMS.Web.Ui.Conflict.csproj" />
+    <ProjectReference Include="..\HMS.Web.Ui\HMS.Web.App.Ui.csproj" />
+  </ItemGroup>
+
+</Project>
